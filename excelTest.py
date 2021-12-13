@@ -6,8 +6,8 @@
 #   - Генерация списка триггеров по инфраструктуре
 
 # Настройка параметров
-zUser = 'api'
-zPass = 'api'
+zUser = ''
+zPass = ''
 ZABBIX_SERVER = 'http://zabbix.ansealk.ru'
 serviceName = 'Linux Servers'
 groupPrefix = ''
