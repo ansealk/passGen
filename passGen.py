@@ -4,7 +4,7 @@ from pyzabbix import ZabbixAPI
 ZABBIX_SERVER = 'http://zabbix.ansealk.ru'
 
 zapi = ZabbixAPI(ZABBIX_SERVER)
-zapi.login('api', 'api')
+zapi.login('', '')
 
 hosts = zapi.host.get(
     output=['name','description','interfaces'],
